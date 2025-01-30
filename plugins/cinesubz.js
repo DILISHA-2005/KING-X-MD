@@ -3,7 +3,7 @@ const {
 } = require("../lib/functions");
 
 const {
-  sinhalaSub
+  cinesubz
 } = require("mrnima-moviedl");
 cmd({
   'pattern': "cinesubz",
