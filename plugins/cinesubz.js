@@ -1,4 +1,8 @@
 const {
+  fetchJson
+} = require("../lib/functions");
+
+const {
   sinhalaSub
 } = require("mrnima-moviedl");
 cmd({
