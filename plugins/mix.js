@@ -1,9 +1,15 @@
+/*
+Please Give Credit 🙂❤️
+⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚
+*/
+//=============================================
 const { cmd, commands } = require('../command');
 const { fetchJson } = require('../lib/functions');
 const yts = require('yt-search');
 const domain = `https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com`;
 const api_key = `Manul-Ofc-Song-Dl-Key-9`;
-
+//===== Api-Key එක මට Message එකක් දාල ඉල්ලගන්න, +94 74 227 4855 සල්ලි ගන්න නෙවේ, කීයක් Use කරනවද දැනගන්න...❤️=====
+//=============================================
 cmd({
     pattern: "song",
     alias: ["audio"],
@@ -32,7 +38,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 > *\`➤ AGO\`:* ${data.ago}
 
-> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳*`;
+> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : © 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳*`;
 
 //==========Send Thumbnail With Details==========
 await conn.sendMessage(m.chat, {
@@ -44,12 +50,13 @@ await conn.sendMessage(m.chat, {
     
     const downloadUrl = response.data.dl_link;
 //============Send Audio======================
-await conn.sendMessage(from,{audio:{url: downloadUrl },mimetype:"audio/mpeg",caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝙳𝙸𝙻𝙸𝚂𝙷𝙰☯*"},{quoted:mek})
+await conn.sendMessage(from,{audio:{url: downloadUrl },mimetype:"audio/mpeg",caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : © 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳*"},{quoted:mek})
 //=============Send Document=================
-await conn.sendMessage(from,{document:{url: downloadUrl },mimetype:"audio/mpeg",fileName: data.title + ".mp3" ,caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝙳𝙸𝙻𝙸𝚂𝙷𝙰☯*"},{quoted:mek})
+await conn.sendMessage(from,{document:{url: downloadUrl },mimetype:"audio/mpeg",fileName: data.title + ".mp3" ,caption :"> *⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : © 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳*"},{quoted:mek})
 
 } catch (e) {
 console.log(e)
 reply(`${e}`)
 }
 })
+//===========©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚==============
