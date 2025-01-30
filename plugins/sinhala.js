@@ -1,3 +1,8 @@
+/*
+Please Give Credit 🙂❤️
+⚖️𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 - : ©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚
+*/
+
 const { cmd, commands } = require('../command');
 const { fetchJson } = require('../lib/functions');
 const domain = `https://manu-ofc-api-site-6bfcbe0e18f6.herokuapp.com`;
@@ -10,7 +15,7 @@ const api_key = `Manul-Ofc-Sl-Sub-Key-9`;
 cmd({
     pattern: "sinhalasublk",
     alias: ["slsublk", "sinhalalk"],
-    react: '📽',
+    react: '',
     category: "download",
     desc: "Search movies on sinhalasub and get download links",
     filename: __filename
@@ -148,3 +153,4 @@ cmd({
     }
 });
 
+//=============©𝐌𝐑 𝐌𝐀𝐍𝐔𝐋 𝐎𝐅𝐂 💚==========
