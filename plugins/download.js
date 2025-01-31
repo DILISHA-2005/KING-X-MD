@@ -203,7 +203,7 @@ cmd({
             'video': {
               'url': _0x2cfc3f.links.SD
             },
-            'caption': "*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ xᴍᴅ*"
+            'caption': "*© ᴄʀᴇᴀᴛᴇᴅ ʙʏ 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳*"
           }, {
             'quoted': _0x5ded0a
           });
