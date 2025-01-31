@@ -12,7 +12,7 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const repoUrl = 'https://github.com/KING-X-MD.git'; 
+        const repoUrl = 'https://github.com/CAMP-LK/KING-X-MD.git'; 
         const targetFolder = 'plugins';
 
         
