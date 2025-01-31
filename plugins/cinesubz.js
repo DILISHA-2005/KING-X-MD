@@ -4,7 +4,7 @@ const {
 
 const {
   cinesubz
-} = require("mrnima-moviedl");
+} = require("@sl-code-lords/movie-api");
 cmd({
   'pattern': "cinesubz",
   'alias': ["movie"],
