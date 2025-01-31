@@ -1151,9 +1151,6 @@ cmd({
 
 //=================
 
-const {
-  cinesubz
-} = require("@sl-code-lords/movie-api");
 cmd({
   'pattern': "cinesubz",
   'alias': ["movie2"],
