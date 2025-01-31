@@ -1,10 +1,9 @@
 const {
   fetchJson
 } = require("../lib/functions");
-
 const {
-  cinesubz
-} = require("@sl-code-lords/movie-api");
+  sinhalaSub
+} = require("mrnima-moviedl");
 cmd({
   'pattern': "cinesubz",
   'alias': ["movie"],
@@ -98,12 +97,12 @@ cmd({
                     },
                     'mimetype': "video/mp4",
                     'fileName': _0x4bd79a.title + " - " + _0x2677a1.quality + '.mp4',
-                    'caption': _0x4bd79a.title + "\nQuality: " + _0x2677a1.quality + "\nPowered by cinesubz",
+                    'caption': _0x4bd79a.title + "\nQuality: " + _0x2677a1.quality + "\nPowered by SinhalaSub",
                     'contextInfo': {
                       'mentionedJid': [],
                       'externalAdReply': {
                         'title': _0x4bd79a.title,
-                        'body': "ᴍᴀᴅᴇ ʙʏ 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳",
+                        'body': "ᴍᴀᴅᴇ ʙʏ ᴍaʟᴠɪɴxᴍᴅ",
                         'mediaType': 0x1,
                         'sourceUrl': _0x51bcf2.link,
                         'thumbnailUrl': _0x4bd79a.image
