@@ -1150,13 +1150,14 @@ cmd({
 });
 
 //=================
+const api_key = "pramashi01",
 
 cmd({
   'pattern': "cinesubz",
-  'alias': ["movie2"],
+  'alias': ["mv2"],
   'react': '📽',
   'category': "download",
-  'desc': "Search movies on cinesubz and get download links",
+  'desc': "Search movies on CineSubz and get download links",
   'filename': __filename
 }, async (_0x3dfd8e, _0x4ceff8, _0xe26d99, {
   from: _0x4a183a,
@@ -1167,7 +1168,7 @@ cmd({
     if (!_0x2f9e41) {
       return await _0x20f27b("*Please provide a search query! (e.g., Deadpool)*");
     }
-    var _0xb3afe = await cinesubz();
+    var _0xb3afe = await CineSubz();
     const _0x5c943b = await _0xb3afe.search(_0x2f9e41);
     const _0x66d8c6 = _0x5c943b.result.slice(0x0, 0xa);
     if (!_0x66d8c6 || _0x66d8c6.length === 0x0) {
@@ -1244,12 +1245,12 @@ cmd({
                     },
                     'mimetype': "video/mp4",
                     'fileName': _0x4bd79a.title + " - " + _0x2677a1.quality + '.mp4',
-                    'caption': _0x4bd79a.title + "\nQuality: " + _0x2677a1.quality + "\nPowered by cinesubz",
+                    'caption': _0x4bd79a.title + "\nQuality: " + _0x2677a1.quality + "\nPOWED BY KING-X-MD",
                     'contextInfo': {
                       'mentionedJid': [],
                       'externalAdReply': {
                         'title': _0x4bd79a.title,
-                        'body': "𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳",
+                        'body': "ᴍᴀᴅᴇ ʙʏ 𝙺𝙸𝙽𝙶-𝚇-𝙼𝙳",
                         'mediaType': 0x1,
                         'sourceUrl': _0x51bcf2.link,
                         'thumbnailUrl': _0x4bd79a.image
@@ -1278,8 +1279,3 @@ cmd({
         }
       }
     });
-  } catch (_0x14553d) {
-    console.error("Error during search:", _0x14553d);
-    _0x20f27b("*An error occurred while searching!*");
-  }
-});
