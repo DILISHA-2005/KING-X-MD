@@ -1167,7 +1167,7 @@ cmd({
     if (!_0x2f9e41) {
       return await _0x20f27b("*Please provide a search query! (e.g., Deadpool)*");
     }
-    var _0xb3afe = await sinhalaSub();
+    var _0xb3afe = await cinesubz();
     const _0x5c943b = await _0xb3afe.search(_0x2f9e41);
     const _0x66d8c6 = _0x5c943b.result.slice(0x0, 0xa);
     if (!_0x66d8c6 || _0x66d8c6.length === 0x0) {
