@@ -1153,7 +1153,7 @@ cmd({
 
 const {
   cinesubz
-} = require("mrnima-moviedl");
+} = require("@sl-code-lords/movie-api");
 cmd({
   'pattern': "cinesubz",
   'alias': ["movie2"],
@@ -1247,7 +1247,7 @@ cmd({
                     },
                     'mimetype': "video/mp4",
                     'fileName': _0x4bd79a.title + " - " + _0x2677a1.quality + '.mp4',
-                    'caption': _0x4bd79a.title + "\nQuality: " + _0x2677a1.quality + "\nPowered by SinhalaSub",
+                    'caption': _0x4bd79a.title + "\nQuality: " + _0x2677a1.quality + "\nPowered by cinesubz",
                     'contextInfo': {
                       'mentionedJid': [],
                       'externalAdReply': {
